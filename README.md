@@ -1,16 +1,4 @@
-[![HarshMirroRepo](https://telegra.ph/file/5d6de8adcfc1a7917c422.jpg)](https://t.me/HarshMirrorRepo)
-
-# Important - Read these points first
-
-- Original repo is https://github.com/lzzy12/python-aria-mirror-bot
-- I have collected some cool features from various repositories and merged them
-  in one.
-- So, credits goes to original repo holder, not to me. I have just collected
-  them.
-- This (or any custom) repo is not supported in official bot support group.
-- So if you have any issue then check first that issue is in official repo or
-  not, You are only allowed to report that issue in bot support group if that
-  issue is also present in official repo.
+[![Warlords-Mirror-Bot](https://avatars.githubusercontent.com/u/96106468?v=4)](https://telegram.me/teamwarlords)
 
 # Features supported:
 
@@ -55,28 +43,12 @@ MyTdName2 tdID IndexLink(if available)
 ```
 Turn On RECURSIVE_SEARCH In Config -RECURSIVE_SEARCH = "True"
 
-## Credits :-
-
-- First of all, full credit goes to
-  [Shivam Jha aka lzzy12](https://github.com/lzzy12) and
-  [JaskaranSM aka Zero Cool](https://github.com/jaskaranSM) They build up this
-  bot from scratch.
-- Then a huge thanks to [Sreeraj V R](https://github.com/SVR666) You can
-  checkout his [repo here](https://github.com/SVR666/LoaderX-Bot)
-- Features added from [Sreeraj V R's](https://github.com/SVR666) repo 
-    And Anas [repo here](https://github.com/breakdowns/slam-mirrorbot) Repo (Archived)
-- Thanks To Ken For Base Repo 
-    checkout his [repo here](https://github.com/KenHV/Mirror-Bot)
-      
 
 ````
 1. Added Inline Buttons
 2. Added /del command to delete files from drive
 3. /list module will post search result on telegra.ph ```
 ````
-
-- Special thanks to [archie](https://github.com/archie9211) for very much useful
-  feature **Unzipmirror**
 
 ````
 1. unzipmirror
@@ -292,15 +264,12 @@ sudo docker run mirror-bot
 # Using service accounts for uploading to avoid user rate limit
 
 For Service Account to work, you must set USE_SERVICE_ACCOUNTS="True" in config
-file or environment variables Many thanks to
-[AutoRClone](https://github.com/xyou365/AutoRclone) for the scripts **NOTE:**
+**NOTE:**
 Using service accounts is only recommended while uploading to a team drive.
 
 ## Generating service accounts
 
-## Step 1. Generate service accounts [What is service
-
-account](https://cloud.google.com/iam/docs/service-accounts)
+## Step 1. Generate service accounts [What is service account](https://cloud.google.com/iam/docs/service-accounts)
 
 Let us create only the service accounts that we need. **Warning:** abuse of this
 feature is not the aim of this project and we do **NOT** recommend that you make
