@@ -1,4 +1,4 @@
-name: Host On Heroku
+name: deploy
 
 on: workflow_dispatch
 
@@ -24,10 +24,10 @@ jobs:
 
           stack: "container"
 
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
-          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_app_name: "" 
 
           docker_heroku_process_type: worker
-        env:
-          HD_CONFIG_FILE_URL: ${{secrets.CONFIG_FILE_URL}}
+
+          heroku_email: ""
+
+          heroku_api_key: ""
