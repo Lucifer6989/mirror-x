@@ -24,10 +24,10 @@ jobs:
 
           stack: "container"
 
-          heroku_app_name: "" 
+          heroku_app_name: "emcodeing" 
 
           docker_heroku_process_type: worker
 
-          heroku_email: ""
+          heroku_email: "xdelx90@gmail.com"
 
-          heroku_api_key: ""
+          heroku_api_key: "d0a5ea07-46df-4cd8-8b7e-526ca51d30cb"
